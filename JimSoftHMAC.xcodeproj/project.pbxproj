@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		0CA8F40226BE828A00D8DF9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F40126BE828A00D8DF9B /* AppDelegate.swift */; };
 		0CA8F40426BE828A00D8DF9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F40326BE828A00D8DF9B /* SceneDelegate.swift */; };
-		0CA8F40626BE828A00D8DF9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F40526BE828A00D8DF9B /* ViewController.swift */; };
 		0CA8F40926BE828A00D8DF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8F40726BE828A00D8DF9B /* Main.storyboard */; };
 		0CA8F40B26BE828B00D8DF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8F40A26BE828B00D8DF9B /* Assets.xcassets */; };
 		0CA8F40E26BE828B00D8DF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8F40C26BE828B00D8DF9B /* LaunchScreen.storyboard */; };
+		0CA8F41826BEA7DA00D8DF9B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F41726BEA7DA00D8DF9B /* Model.swift */; };
+		0CA8F41A26BEDFB200D8DF9B /* HmacCKsha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F41926BEDFB200D8DF9B /* HmacCKsha256.swift */; };
+		0CA8F41C26BF045F00D8DF9B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F41B26BF045F00D8DF9B /* Network.swift */; };
+		0CA8F41E26BF1E2500D8DF9B /* HmacCCsha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F41D26BF1E2500D8DF9B /* HmacCCsha256.swift */; };
+		0CA8F42026C021C600D8DF9B /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F41F26C021C600D8DF9B /* Authentication.swift */; };
+		0CA8F42426C062AD00D8DF9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8F42326C062AD00D8DF9B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CA8F3FE26BE828A00D8DF9B /* JimSoftHMAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JimSoftHMAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA8F40126BE828A00D8DF9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA8F40326BE828A00D8DF9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CA8F40526BE828A00D8DF9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CA8F40826BE828A00D8DF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CA8F40A26BE828B00D8DF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA8F40D26BE828B00D8DF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA8F40F26BE828B00D8DF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA8F41726BEA7DA00D8DF9B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0CA8F41926BEDFB200D8DF9B /* HmacCKsha256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HmacCKsha256.swift; sourceTree = "<group>"; };
+		0CA8F41B26BF045F00D8DF9B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0CA8F41D26BF1E2500D8DF9B /* HmacCCsha256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HmacCCsha256.swift; sourceTree = "<group>"; };
+		0CA8F41F26C021C600D8DF9B /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		0CA8F42326C062AD00D8DF9B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,34 @@
 			children = (
 				0CA8F40126BE828A00D8DF9B /* AppDelegate.swift */,
 				0CA8F40326BE828A00D8DF9B /* SceneDelegate.swift */,
-				0CA8F40526BE828A00D8DF9B /* ViewController.swift */,
+				0CA8F42326C062AD00D8DF9B /* TableViewController.swift */,
 				0CA8F40726BE828A00D8DF9B /* Main.storyboard */,
+				0CA8F41726BEA7DA00D8DF9B /* Model.swift */,
+				0CA8F42126C021E500D8DF9B /* Services */,
 				0CA8F40A26BE828B00D8DF9B /* Assets.xcassets */,
 				0CA8F40C26BE828B00D8DF9B /* LaunchScreen.storyboard */,
 				0CA8F40F26BE828B00D8DF9B /* Info.plist */,
 			);
 			path = JimSoftHMAC;
+			sourceTree = "<group>";
+		};
+		0CA8F42126C021E500D8DF9B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0CA8F42226C03B5D00D8DF9B /* HMAC */,
+				0CA8F41B26BF045F00D8DF9B /* Network.swift */,
+				0CA8F41F26C021C600D8DF9B /* Authentication.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0CA8F42226C03B5D00D8DF9B /* HMAC */ = {
+			isa = PBXGroup;
+			children = (
+				0CA8F41926BEDFB200D8DF9B /* HmacCKsha256.swift */,
+				0CA8F41D26BF1E2500D8DF9B /* HmacCCsha256.swift */,
+			);
+			path = HMAC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA8F40626BE828A00D8DF9B /* ViewController.swift in Sources */,
+				0CA8F41826BEA7DA00D8DF9B /* Model.swift in Sources */,
 				0CA8F40226BE828A00D8DF9B /* AppDelegate.swift in Sources */,
+				0CA8F41A26BEDFB200D8DF9B /* HmacCKsha256.swift in Sources */,
+				0CA8F41E26BF1E2500D8DF9B /* HmacCCsha256.swift in Sources */,
+				0CA8F41C26BF045F00D8DF9B /* Network.swift in Sources */,
 				0CA8F40426BE828A00D8DF9B /* SceneDelegate.swift in Sources */,
+				0CA8F42426C062AD00D8DF9B /* TableViewController.swift in Sources */,
+				0CA8F42026C021C600D8DF9B /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.enta.JimSoftHMAC;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.enta.GymSoftHMAC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.enta.JimSoftHMAC;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.enta.GymSoftHMAC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
